@@ -1,0 +1,89 @@
+/* css reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  height: 100vh;
+  background-image: url(sky-690293_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-style: italic;
+  font-family: Times;
+}
+
+#profil-card {
+  background-color: hsla(0, 30%, 100%, .5);
+  border-radius: 10px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  width: 480px;
+  max-width: calc(100vw-10px);
+  margin-top: 40px auto;
+  height: 450px;
+  text-align: center;
+}
+
+img {
+  margin-top: -80px;
+  width: 120px;
+  height: auto;
+  border-radius: 20%;
+  padding: 1px;
+  background-color: #666;
+  transition: width 2s, height 2s, transform 2s;
+  }
+
+img:hover {
+  width: 50px;
+  height:auto;
+  transform: rotate(360deg);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  background-color:beige;
+  padding: 20px;
+  padding-bottom: 20px;
+  border-radius: 20%
+}
+
+a:hover {
+  background-color: aliceblue;
+}
+
+
+#oldalak {
+  margin-top: 30px;
+}
+
+#p-about {
+  margin: 40px
+}
+
+#images {
+  margin-top: 100px;
+}
+
+#p-motto {
+  margin-top: 40px;
+}
+
+#section-links {
+  margin-top: 80px;
+}
